@@ -1,0 +1,11 @@
+.product {
+    width: 100%;
+    height: 24rem;
+    background-color: lightgreen
+
+}
+
+.productbody {
+    width: 100%;
+    background-color: white;
+}
