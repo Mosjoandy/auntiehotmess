@@ -1,11 +1,46 @@
 .about {
     width: 100%;
-    height: 24rem;
-    background-color: grey
-
+    height: 50rem;
+    background-color: grey;
 }
 
-.aboutbody {
+.aboutBody {
     width: 100%;
     background-color: white;
+    margin-top: 2.5rem;
+}
+
+.aboutContent {
+    display: flex;
+    height: 100%;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.aboutTitle {
+    text-align: center;
+}
+
+/* 
+.aboutLeft {
+    border: 1px solid green;
+    width: 50%;
+    flex: wrap;
+}
+
+.aboutRight {
+    border: 1px solid green;
+    width: 50%;
+    flex:wrap;
+} */
+
+#hotmessLogo {
+    width: 30rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #hotmessLogo {
+        width: 100%;
+    }
 }

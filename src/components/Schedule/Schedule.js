@@ -2,8 +2,8 @@ import React from "react";
 import "./Schedule.css";
 
 const Schedule = () => (
-  <div class="schedule">
-    <div class="container schedulebody">
+  <div className="schedule">
+    <div className="container schedulebody">
       <h1>Schedule stuff</h1>
     </div>
   </div>

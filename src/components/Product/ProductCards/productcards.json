@@ -1,0 +1,81 @@
+[
+    {
+        "id": 0,
+        "imageName": "RTPsoap",
+        "name": "Rosemary Teatree Peppermint",
+        "ingredients": "Natural Ingredients:  charcoal, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432080/Auntie%20Hotmess%20Soaps/IMG_1863.jpg"
+    },
+    {
+        "id": 1,
+        "imageName": "CPsoap",
+        "name": "Coffee Peppermint",
+        "ingredients": "Natural Ingredients:  coffee grounds, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432084/Auntie%20Hotmess%20Soaps/IMG_1865.jpg"
+    },
+    {
+        "id": 2,
+        "imageName": "OCsoap",
+        "name": "Orange Clove",
+        "ingredients": "Natural Ingredients:  coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432076/Auntie%20Hotmess%20Soaps/IMG_1867.jpg"
+    },
+    {
+        "id": 3,
+        "imageName": "EPsoap",
+        "name": "Eucalyptus Poppyseed",
+        "ingredients": "Natural Ingredients:  poopyseeds, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432022/Auntie%20Hotmess%20Soaps/IMG_1870.jpg"
+    },
+    {
+        "id": 4,
+        "imageName": "Lsoap",
+        "name": "Lavender",
+        "ingredients": "Natural Ingredients:  dried lavender, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533431986/Auntie%20Hotmess%20Soaps/IMG_1872.jpg"
+    },
+    {
+        "id": 5,
+        "imageName": "Usoap",
+        "name": "Unscented with Charcoal",
+        "ingredients": "Natural Ingredients:  charcoal, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533431950/Auntie%20Hotmess%20Soaps/IMG_1874.jpg"
+    },
+    {
+        "id": 6,
+        "imageName": "USsoap",
+        "name": "Unscented with Rope String",
+        "ingredients": "Natural Ingredients:  coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
+
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432242/Auntie%20Hotmess%20Soaps/IMG_1876.jpg"
+    },
+    {
+        "id": 7,
+        "imageName": "BSalts",
+        "name": "Bath Salts (L, S)",
+        "ingredients": "Natural Ingredients:  pink himalayan rock salt, epsom salt, assorted dried flowers",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432269/Auntie%20Hotmess%20Soaps/IMG_1882.jpg"
+    },
+    {
+        "id": 8,
+        "imageName": "lipBalm",
+        "name": "Lemon-Lime Lip Balm",
+        "ingredients": "Natural Ingredients:  lemon-lime natural flavoring, coconut oil, olive oil, shea butter, candelilla wax, almond oil, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432358/Auntie%20Hotmess%20Soaps/IMG_1890.jpg"
+    },
+    {
+        "id": 9,
+        "imageName": "clayMask",
+        "name": "Bentonite-Tumeric-Clove Clay Masks",
+        "ingredients": "Natural Ingredients:  bentonite clay, turmeric powder, clove powder",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432371/Auntie%20Hotmess%20Soaps/IMG_1886.jpg"
+    },
+    {
+        "id": 10,
+        "imageName": "Scandle",
+        "name": "Salve Candle",
+        "ingredients": "Natural Ingredients:  coconut oil, olive oil, shea butter, coco butter, candelilla wax, kaolin clay, jojoba oil, essential oils",
+        "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533432372/Auntie%20Hotmess%20Soaps/IMG_1888.jpg"
+    }
+]
+  

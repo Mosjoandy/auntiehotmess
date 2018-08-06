@@ -1,6 +1,6 @@
 .product {
     width: 100%;
-    height: 24rem;
+    height: 50rem;
     background-color: lightgreen
 
 }
@@ -8,4 +8,5 @@
 .productbody {
     width: 100%;
     background-color: white;
+    margin-top: 2.5rem;
 }

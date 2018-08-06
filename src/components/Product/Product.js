@@ -1,10 +1,17 @@
 import React from "react";
 import "./Product.css";
+import ProductCards from './ProductCards';
 
 const Product = () => (
-  <div class="product">
-    <div class="container productbody">
-      <h1>Product stuff</h1>
+  <div className="product">
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-12">
+          <div className="productbody">
+            <ProductCards />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 );
