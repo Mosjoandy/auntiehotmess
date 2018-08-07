@@ -3,13 +3,15 @@ import "./Product.css";
 import ProductCards from './ProductCards';
 
 const Product = () => (
-  <div className="product">
+  <div className="product" id="aboutScroll">
     <div className="container">
       <div className="row">
-        <div className="productTitle">
-          <hr />
-          Products
-          <hr />
+        <div className="col-sm-12">
+          <div className="productTitle">
+            <hr />
+            Products
+            <hr />
+          </div>
         </div>
       </div>
       <div className="row">

@@ -1,24 +1,21 @@
 .about {
     width: 100%;
     height: 100%;
-    background-color: grey;
 }
 
 .aboutBody {
-    width: 100%;
     background-color: white;
-    margin-top: 2.5rem;
+    margin-top: 0 auto;
 }
 
 .aboutContent {
-    display: flex;
-    height: 100%;
     margin-top: 2.5rem;
     font-size: 1.5rem;
 }
 
 .aboutTitle {
     text-align: center;
+    font-family: 'Special Elite', cursive;
 }
 
 /* 
@@ -36,6 +33,7 @@
 
 #hotmessLogo {
     width: 30rem;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,4 +41,10 @@
     #hotmessLogo {
         width: 100%;
     }
+
+    .aboutContent {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
 }
