@@ -6,19 +6,20 @@ class ProductCards extends Component {
     render() {
 
         return (
-            <div className="card-deck mx-auto">
+            <div className="card-columns">
 
                 {productcards.map(productcards => (
-                    <div classname="card sup">
-                        <img class="card-img-top" src={productcards.image} alt={productcards.imageName} />
-                        <div class="card-body">
-                            <h5 class="card-title">{productcards.name}</h5>
-                            <p class="card-text">{productcards.ingredients}</p>
+                    <div className="card border-dark">
+                        <img className="card-img-top" src={productcards.image} alt={productcards.imageName} />
+                        <div className="card-body card-info">
+                            <h4 className="card-title text-center">{productcards.name}</h4>
+                            <p className="card-text">{productcards.ingredients}</p>
                         </div>
                     </div>
                 ))}
 
             </div>
+
         )
     };
 };

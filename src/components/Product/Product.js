@@ -6,8 +6,15 @@ const Product = () => (
   <div className="product">
     <div className="container">
       <div className="row">
+        <div className="productTitle">
+          <hr />
+          Products
+          <hr />
+        </div>
+      </div>
+      <div className="row">
         <div className="col-sm-12">
-          <div className="productbody">
+          <div className="productbody text-center">
             <ProductCards />
           </div>
         </div>

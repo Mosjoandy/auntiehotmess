@@ -7,6 +7,7 @@ import About from './components/About';
 // import Mission from './components/Mission';
 import Product from './components/Product';
 import Schedule from './components/Schedule';
+import NicePic from './components/NicePic';
 
 class App extends Component {
 
@@ -17,6 +18,7 @@ class App extends Component {
         <Nav />
         <About /> 
         {/* <Mission /> */}
+        <NicePic />
         <Product />
         <Schedule />
       </div>

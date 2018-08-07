@@ -1,4 +1,9 @@
-.sup {
-    width: 5rem;
-    height: 2.5rem;
+.deck {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.productImg {
+    width: 15rem;
+}
+
