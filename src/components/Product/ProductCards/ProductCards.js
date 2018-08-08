@@ -12,6 +12,7 @@ class ProductCards extends Component {
                     <div className="card border-dark">
                         <img className="card-img-top" src={productcards.image} alt={productcards.imageName} />
                         <div className="card-body card-info">
+                        <hr />
                             <h4 className="card-title text-center">{productcards.name}</h4>
                             <p className="card-text text-left"><b>Natural Ingrdients:</b> {productcards.ingredients}</p>
                         </div>

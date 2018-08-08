@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './App.css';
 
-import Nav from './components/Nav'; 
+import Nav from './components/Nav';
 import About from './components/About';
 // import Mission from './components/Mission';
 import Product from './components/Product';
@@ -16,11 +16,12 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <About /> 
-        {/* <Mission /> */}
         <NicePic />
+        <About />
+        {/* <Mission /> */}
         <Product />
         <Schedule />
+        <a href="#scrollTopTarget"><img id="scrollTop" src={require("./components/images/arrowup.png")} alt="arrowupthing" /></a>
       </div>
     );
   };

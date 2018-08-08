@@ -3,7 +3,7 @@ import "./Product.css";
 import ProductCards from './ProductCards';
 
 const Product = () => (
-  <div className="product" id="aboutScroll">
+  <div className="product"><span id="productScroll" />
     <div className="container">
       <div className="row">
         <div className="col-sm-12">
@@ -21,6 +21,9 @@ const Product = () => (
           </div>
         </div>
       </div>
+    </div>
+    <div className="nextComponent">
+      <a href="#scheduleScroll"><img id="scrollDown" src={require("../images/arrowdown.png")} alt="downarrowthing" /></a>
     </div>
   </div>
 );
