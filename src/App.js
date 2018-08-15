@@ -8,6 +8,7 @@ import About from './components/About';
 import Product from './components/Product';
 import Schedule from './components/Schedule';
 import NicePic from './components/NicePic';
+import MissionPic from './components/MissionPic';
 
 class App extends Component {
 
@@ -18,7 +19,7 @@ class App extends Component {
         <Nav />
         <NicePic />
         <About />
-        {/* <Mission /> */}
+        <MissionPic />
         <Product />
         <Schedule />
         <a href="#scrollTopTarget"><img id="scrollTop" src={require("./components/images/arrowup.png")} alt="arrowupthing" /></a>
