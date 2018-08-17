@@ -17,9 +17,9 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <NicePic />
-        <About />
         <MissionPic />
+        <About />
+        <NicePic />
         <Product />
         <Schedule />
         <a href="#scrollTopTarget"><img id="scrollTop" src={require("./components/images/arrowup.png")} alt="arrowupthing" /></a>

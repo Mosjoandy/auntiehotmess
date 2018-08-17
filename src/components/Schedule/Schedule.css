@@ -26,11 +26,21 @@
     float: right;
 }
 
-tr {
-    width: 30%;
-    vertical-align: top;
-    text-align: left;
+#stockMarketImg {
+    width: 100%;
+    height: 100%;
 }
+
+#directionIcon {
+    width: 10vh;
+    margin-right: 0.5vw;
+    transition: 0.1s all ease-in
+}
+
+#directionIcon:hover {
+    transform: scale(1.2)
+}
+
 @media only screen and (max-width: 600px) {
 
     .scheduleTitle {
