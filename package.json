@@ -2,7 +2,7 @@
   "name": "hotmess",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mosjoandy.github.io/auntiehotmess/",
+  "homepage": "https://www.auntiehotmess.com/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "google-map-react": "^1.0.6",
