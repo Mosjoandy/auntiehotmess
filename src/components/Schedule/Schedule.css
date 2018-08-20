@@ -41,6 +41,10 @@
     transform: scale(1.2)
 }
 
+#calendarDiv {
+    position: absolute;
+    bottom: 1rem;   
+}
 @media only screen and (max-width: 600px) {
 
     .scheduleTitle {
