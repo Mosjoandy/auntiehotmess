@@ -1,4 +1,3 @@
-
 var scrolling = document.querySelectorAll('a[href^="#"]') //finds all a tags with href with # sign
 
 function smoothScrolling() {
