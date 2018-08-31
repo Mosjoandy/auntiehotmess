@@ -3,7 +3,7 @@ import "./Product.css";
 import ProductCards from './ProductCards';
 
 const Product = () => (
-  <div className="product"><span id="productScroll" />
+  <div className="product" id="productScroll">
     <div className="container">
       <div className="row">
         <div className="col-sm-12">
