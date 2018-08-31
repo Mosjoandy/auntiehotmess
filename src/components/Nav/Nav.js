@@ -12,16 +12,16 @@ const Nav = () => (
       <ul className="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
    
         <li className="nav-item">
-          <a className="badge badge-secondary mr-2" href="#aboutScroll">About</a>
+          <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#aboutScroll">About</a>
         </li>
         {/* <li className="nav-item">
-          <a className="badge badge-secondary mr-2" href="#missionScroll">Mission</a>
+          <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#missionScroll">Mission</a>
         </li> */}
         <li className="nav-item">
-          <a className="badge badge-secondary mr-2" href="#productScroll">Products</a>
+          <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#productScroll">Products</a>
         </li>
         <li className="nav-item">
-          <a className="badge badge-secondary mr-2" href="#scheduleScroll">Schedule</a>
+          <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#scheduleScroll">Schedule</a>
         </li>
       </ul>
 
