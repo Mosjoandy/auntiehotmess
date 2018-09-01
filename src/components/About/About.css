@@ -18,18 +18,10 @@
     font-family: 'Special Elite', cursive;
 }
 
-/* 
-.aboutLeft {
-    border: 1px solid green;
-    width: 50%;
-    flex: wrap;
+#inlineIco {
+    width: 2vw; 
+    margin: 0 1vh;
 }
-
-.aboutRight {
-    border: 1px solid green;
-    width: 50%;
-    flex:wrap;
-} */
 
 #hotmessLogo {
     width: 30rem;

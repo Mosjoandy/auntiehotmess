@@ -3,7 +3,7 @@ import "./Nav.css";
 
 const Nav = () => (
 
-  <nav className="navbar navbar-expand-lg navbar-light" id="scrollTopTarget">
+  <nav className="navbar navbar-expand-lg navbar-light " id="scrollTopTarget">
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,6 +22,9 @@ const Nav = () => (
         </li>
         <li className="nav-item">
           <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#scheduleScroll">Schedule</a>
+        </li>
+        <li className="nav-item">
+          <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#contactScroll">Contact</a>
         </li>
       </ul>
 
