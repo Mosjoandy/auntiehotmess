@@ -37,7 +37,7 @@ const Contact = () => (
             Contact
           </div>
           <hr />
-          <p>Want to talk? Interested in private orders? Send us an email!</p>
+          <p>Want to talk? Send us an email!</p>
 
           <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
             <img id="email" src={require("../images/email.png")} alt="mail" /></a>
