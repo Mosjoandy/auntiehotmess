@@ -2,4 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Anonymous Pro', monospace;
+  /* background-image: url(./components/images/canvas.jpg); */
+}
+
+hr {
+  height: 5px !important;
 }

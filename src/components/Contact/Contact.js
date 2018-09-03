@@ -14,8 +14,8 @@ const Contact = () => (
             </div>
           <hr />
           <div className="justify-content-center d-flex">
-            <h4><a className="rounded-circle justify-content-center " target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
-              <img id="burge" src={require("../images/burge.png")} alt="burge" /></a>
+            <h4><a target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
+              <img id="burge" className="rounded-circle justify-content-center d-flex" src={require("../images/burge.png")} alt="burge" /></a>
               <div className="justify-content-center d-flex">
                 <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
                   <span>Burge Road Farm</span></a>
@@ -37,7 +37,7 @@ const Contact = () => (
             Contact
           </div>
           <hr />
-          <p>Want to talk? Send us an email!</p>
+          <p><b>Want to talk? Send us an email!</b></p>
 
           <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
             <img id="email" src={require("../images/email.png")} alt="mail" /></a>
@@ -51,7 +51,7 @@ const Contact = () => (
               <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/auntiehotmesssoap/">
                 <span>Auntie Hotmess Soaps</span></a>
             </h4>
-            
+
           </div>
         </div>
 

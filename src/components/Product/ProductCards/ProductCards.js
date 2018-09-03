@@ -14,7 +14,6 @@ class ProductCards extends Component {
                     <div className="card border-dark" key={productcards.id}>
                         <img className="card-img-top" src={productcards.image} alt={productcards.imageName} />
                         <div className="card-body card-info">
-                            <hr />
 
                             {/* <img id="sliderTrigger" data-box={productcards.id} className="productSlider" src={require("../../images/arrowdown.png")} alt="downarrowthing" /> */}
                             <div className="slideUp" id={productcards.id}>

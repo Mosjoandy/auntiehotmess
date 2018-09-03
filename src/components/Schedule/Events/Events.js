@@ -11,7 +11,7 @@ class Events extends Component {
                 {events.map(events => (
                     <div className="card mb-2" key={events.id}>
                         <div className="card-header text-center">
-                            <h1><b>{events.name}</b></h1>
+                            <h2><b>{events.name}</b></h2>
                         </div>
                         <div className="card-body">
                             <div className="row">
