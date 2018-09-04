@@ -1,6 +1,5 @@
 import React from "react";
 import "./Schedule.css";
-// import Map from "../Map";
 import Events from "./Events"
 
 const Schedule = () => (
