@@ -13,8 +13,8 @@ const About = () => (
               <hr />
             </div>
             <div className="aboutContent">
-              <p>Auntie Hotmess Soaps was founded on the values of preserving nature and reducing waste.
-              As a budding Soap-Maker, she strove to create a soap product that was eco-friendly. With
+              <p>Auntie Hotmess Soaps is founded on the values of preserving nature and reducing waste.
+              She strives to create body products that are biodegradeable and eco-friendly. With
               her friends and family in mind, her soaps and products are all-natural and plant-based.
               </p>She sources her ingredients from companies that use environmentally
               friendly practices. All her products and cold processed soaps are crafted at

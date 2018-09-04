@@ -16,7 +16,7 @@ const Product = () => (
       </div>
       <div className="row">
         <div className="col-sm-12">
-          <div className="productbody text-center">
+          <div className="productbody">
             <ProductCards />
           </div>
         </div>
