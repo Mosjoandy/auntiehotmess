@@ -14,9 +14,6 @@ const Nav = () => (
         <li className="nav-item">
           <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#aboutScroll">About</a>
         </li>
-        {/* <li className="nav-item">
-          <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#missionScroll">Mission</a>
-        </li> */}
         <li className="nav-item">
           <a type="btn" role="button" className="btn btn-secondary mr-2" id="navButton" href="#productScroll">Products</a>
         </li>

@@ -16,6 +16,20 @@
     font-family: 'Special Elite', cursive;
 }
 
+#productScrollTop {
+    width: 7%;
+    display: block;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99999;
+    transition: all .1s ease-in-out;
+}
+
+#productScrollTop:hover {
+    transform: scale(1.3)
+}
+
 @media only screen and (max-width: 600px) {
 
     .scheduleTitle {

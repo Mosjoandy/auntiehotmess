@@ -35,7 +35,6 @@ class ProductCards extends Component {
                 <div className="d-flex justify-content-center" id="productNavi">
                     <button type="btn"
                         onClick={this.changeColorSoap.bind(this)}
-                        // id={toggleSoap}
                         className={toggleSoap}
                         data-toggle="collapse"
                         data-target="#soap"
@@ -44,7 +43,6 @@ class ProductCards extends Component {
                     >Soap</button>
                     <button type="btn"
                         onClick={this.changeColorFace.bind(this)}
-                        // id={toggleFace}
                         className={toggleFace}
                         data-toggle="collapse"
                         data-target="#face"
@@ -53,7 +51,6 @@ class ProductCards extends Component {
                     >Face</button>
                     <button type="btn"
                         onClick={this.changeColorBath.bind(this)}
-                        // id={toggleBath}
                         className={toggleBath}
                         data-toggle="collapse"
                         data-target="#bath"
@@ -69,8 +66,7 @@ class ProductCards extends Component {
                                 <img className="card-img-top" src={productcards.image} alt={productcards.imageName} />
                                 <div className="card-body card-info">
 
-                                    {/* <img id="sliderTrigger" data-box={productcards.id} className="productSlider" src={require("../../images/arrowdown.png")} alt="downarrowthing" /> */}
-                                    <div className="slideUp" id={productcards.id}>
+                                    <div id={productcards.id}>
 
                                         <h4 className="card-title text-center">{productcards.name}</h4>
                                         <p className="card-text text-left"><b>Natural Ingrdients:</b> {productcards.ingredients}</p>

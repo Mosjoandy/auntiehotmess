@@ -7,6 +7,9 @@ const Schedule = () => (
     <div className="container">
       <div className="row">
         <div className="col-sm-12">
+        {/* Crazy wierd CSS interaction, won't allow :hover or become clickable in productcards.js or products.js */}
+        <a href="#productScroll"><img id="productScrollTop" src={require("../images/arrowup.png")} alt="arrowupthing" /></a>
+
           <div className="scheduleTitle">
             <hr />
             Schedule
@@ -17,7 +20,7 @@ const Schedule = () => (
       <div className="row">
         <div className="col-sm-12">
           <div className="scheduleBody">
-           <Events />
+            <Events />
           </div>
         </div>
       </div>
