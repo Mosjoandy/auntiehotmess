@@ -7,25 +7,93 @@ class ProductCards extends Component {
         super();
 
         this.state = {
+            // toggleAll: true,
             toggleSoap: true,
             toggleBath: true,
             toggleFace: true
         }
     }
 
+    // changeColorAll() {
+    //     if (this.state.toggleAll === true) {
+    //         this.setState({
+    //             toggleAll: false,
+    //             toggleSoap: false,
+    //             toggleBath: false,
+    //             toggleFace: false
+    //         });
+    //     };
+
+    //     if (this.state.toggleAll === false ) {
+    //         this.setState({
+    //             toggleAll: true,
+    //             toggleSoap: true,
+    //             toggleBath: true,
+    //             toggleFace: true
+    //         });
+    //     };
+    //     // default toggleAll will set toggleSoap/Bath/Face as false
+
+    //     // clicking toggleAll will setState as false, changing the color of the button
+
+    //     // clicking any of the other buttons (soap, face, bath) will set toggleAll state as true
+
+    //     // if toggleSOap, toggleBath, and toggleFace are false, set toggleAll state as false
+
+
+    //     // this.setState({ toggleAll: !this.state.toggleAll })
+    //     // if (this.state.toggleBath === false && this.state.toggleSoap === false && this.state.toggleFace === false) {
+    //     //     this.setState({ toggleAll: !this.state.toggleAll })
+    //     // }
+    // };
+
     changeColorSoap() {
-        this.setState({ toggleSoap: !this.state.toggleSoap })
-    }
+        if (this.state.toggleSoap === true) {
+            this.setState({
+                toggleSoap: false,
+                toggleAll: true
+            });
+        } else { 
+            this.setState({
+                toggleSoap: true
+            });
+        };
+        // if (this.state.toggleBath === false && this.state.toggleSoap === false && this.state.toggleFace === false) {
+        //     this.setState({ 
+        //         toggleAll: false 
+        //     });
+        // };
+
+    };
 
     changeColorBath() {
-        this.setState({ toggleBath: !this.state.toggleBath })
-    }
+        if (this.state.toggleBath === true) {
+            this.setState({
+                toggleBath: false,
+                toggleAll: true
+            });
+        } else { 
+            this.setState({
+                toggleBath: true
+            });
+        };
+    };
 
     changeColorFace() {
-        this.setState({ toggleFace: !this.state.toggleFace })
-    }
+        if (this.state.toggleFace === true) {
+            this.setState({
+                toggleFace: false,
+                toggleAll: true
+            });
+        } else { 
+            this.setState({
+                toggleFace: true
+            });
+        };
+    };
 
     render() {
+        // let toggleAll = this.state.toggleAll ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
         let toggleSoap = this.state.toggleSoap ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
         let toggleFace = this.state.toggleFace ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
         let toggleBath = this.state.toggleBath ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
@@ -33,6 +101,14 @@ class ProductCards extends Component {
         return (
             <div>
                 <div className="d-flex justify-content-center" id="productNavi">
+                    {/* <button type="btn"
+                        onClick={this.changeColorAll.bind(this)}
+                        className={toggleAll}
+                        data-toggle="collapse"
+                        data-target="#soap, #face, #bath"
+                        aria-expanded="false"
+                        aria-controls="soap"
+                    >All Products</button> */}
                     <button type="btn"
                         onClick={this.changeColorSoap.bind(this)}
                         className={toggleSoap}
