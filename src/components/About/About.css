@@ -6,6 +6,7 @@
 
 .aboutBody {
     background-color: white;
+    height: 100%;
     margin-top: 0 auto;
     /* background-image: url(../images/canvas.jpg); */
 }

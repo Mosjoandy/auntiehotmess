@@ -134,6 +134,7 @@ class ProductCards extends Component {
                         aria-controls="bath"
                     >Bath</button>
                 </div>
+                
                 <div className="card-columns">
 
                     {productcards.map(productcards => (
