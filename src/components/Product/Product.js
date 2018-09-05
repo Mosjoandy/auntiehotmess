@@ -22,9 +22,6 @@ const Product = () => (
         </div>
       </div>
     </div>
-    <div className="nextComponent">
-      <a href="#scheduleScroll"><img id="scrollDown" src={require("../images/arrowdown.png")} alt="downarrowthing" /></a>
-    </div>
   </div>
 );
 

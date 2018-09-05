@@ -17,6 +17,13 @@
     border: none;
     backface-visibility: hidden;
 }
+
+#toggleOn {
+    background: green;
+}
+#toggleOff {
+    background: purple;
+}
 /* 
 .slideUp, .slideDown {
     max-height: 0;            

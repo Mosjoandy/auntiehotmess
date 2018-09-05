@@ -2,6 +2,7 @@
     {
         "id": 0,
         "imageName": "RTPsoap",
+        "dataid": "soap",
         "name": "Rosemary Teatree Peppermint",
         "ingredients": "charcoal, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533598770/Auntie%20Hotmess%20Soaps/Rosemary_Peppermint_Teatree.jpg"
@@ -9,6 +10,7 @@
     {
         "id": 1,
         "imageName": "CPsoap",
+        "dataid": "soap",
         "name": "Coffee Peppermint",
         "ingredients": " coffee grounds, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533598776/Auntie%20Hotmess%20Soaps/Coffee_Peppermint.jpg"
@@ -16,6 +18,7 @@
     {
         "id": 2,
         "imageName": "OCsoap",
+        "dataid": "soap",
         "name": "Orange Clove",
         "ingredients": " coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533598769/Auntie%20Hotmess%20Soaps/Orange_Clove.jpg"
@@ -23,6 +26,7 @@
     {
         "id": 3,
         "imageName": "EPsoap",
+        "dataid": "soap",
         "name": "Eucalyptus Poppyseed",
         "ingredients": " poopyseeds, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533599783/Auntie%20Hotmess%20Soaps/Eucalyptus_Poppyseed.jpg"
@@ -30,6 +34,7 @@
     {
         "id": 4,
         "imageName": "Lsoap",
+        "dataid": "soap",
         "name": "Lavender",
         "ingredients": " dried lavender, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533598784/Auntie%20Hotmess%20Soaps/Lavender.jpg"
@@ -37,6 +42,7 @@
     {
         "id": 5,
         "imageName": "Usoap",
+        "dataid": "soap",
         "name": "Unscented with Charcoal",
         "ingredients": " charcoal, coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533598782/Auntie%20Hotmess%20Soaps/Unscented.jpg"
@@ -44,6 +50,7 @@
     {
         "id": 6,
         "imageName": "USsoap",
+        "dataid": "soap",
         "name": "Unscented with Rope String",
         "ingredients": " coconut oil, olive oil, shea butter, coco butter, candelilla wax, jojoba oil, kaolin clay, essential oils",
 
@@ -52,6 +59,7 @@
     {
         "id": 7,
         "imageName": "BSalts",
+        "dataid": "bath",
         "name": "Bath Salts (L, S)",
         "ingredients": " pink himalayan rock salt, epsom salt, assorted dried flowers",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533599688/Auntie%20Hotmess%20Soaps/Bath_Salts_Both2.jpg"
@@ -59,6 +67,7 @@
     {
         "id": 8,
         "imageName": "lipBalm",
+        "dataid": "face",
         "name": "Lemon-Lime Lip Balm",
         "ingredients": " lemon-lime natural flavoring, coconut oil, olive oil, shea butter, candelilla wax, almond oil, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533598783/Auntie%20Hotmess%20Soaps/Lip_Balm.jpg"
@@ -66,6 +75,7 @@
     {
         "id": 9,
         "imageName": "clayMask",
+        "dataid": "face",
         "name": "Bentonite-Tumeric-Clove Clay Masks",
         "ingredients": " bentonite clay, turmeric powder, clove powder",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533598788/Auntie%20Hotmess%20Soaps/Bentonite_Clay_Mask_Small.jpg"
@@ -73,6 +83,7 @@
     {
         "id": 10,
         "imageName": "Scandle",
+        "dataid": "bath",
         "name": "Salve Candle",
         "ingredients": " coconut oil, olive oil, shea butter, coco butter, candelilla wax, kaolin clay, jojoba oil, essential oils",
         "image": "https://res.cloudinary.com/mosjoandy/image/upload/v1533599855/Auntie%20Hotmess%20Soaps/Salve_Candle.jpg"
