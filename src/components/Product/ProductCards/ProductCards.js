@@ -7,55 +7,65 @@ class ProductCards extends Component {
         super();
 
         this.state = {
-            toggle: true
+            toggleSoap: true,
+            toggleBath: true,
+            toggleFace: true
         }
     }
 
-    changeColor() {
-        this.setState({ toggle: !this.state.toggle })
+    changeColorSoap() {
+        this.setState({ toggleSoap: !this.state.toggleSoap })
     }
+
+    changeColorBath() {
+        this.setState({ toggleBath: !this.state.toggleBath })
+    }
+
+    changeColorFace() {
+        this.setState({ toggleFace: !this.state.toggleFace })
+    }
+
     render() {
-        let toggle = this.state.toggle ? "toggleOn" : "toggleOff";
+        let toggleSoap = this.state.toggleSoap ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
+        let toggleFace = this.state.toggleFace ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
+        let toggleBath = this.state.toggleBath ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
 
         return (
             <div>
-                <p>
-                    {/* <a className="badge badge-pill badge-secondary" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="soap bath face">All</button> */}
-                    <a type="btn"
-                        onClick={this.changeColor.bind(this)}
-                        role="button"
-                        id={toggle}
-                        className=" btn btn-secondary mr-2"
+                <div className="d-flex justify-content-center" id="productNavi">
+                    <button type="btn"
+                        onClick={this.changeColorSoap.bind(this)}
+                        // id={toggleSoap}
+                        className={toggleSoap}
                         data-toggle="collapse"
-                        aria-pressed="true"
                         data-target="#soap"
                         aria-expanded="false"
                         aria-controls="soap"
-                    >Soap</a>
-                    <a type="btn"
-                        role="button"
-                        className="btn btn-secondary mr-2"
+                    >Soap</button>
+                    <button type="btn"
+                        onClick={this.changeColorFace.bind(this)}
+                        // id={toggleFace}
+                        className={toggleFace}
                         data-toggle="collapse"
-                        aria-pressed="true"
                         data-target="#face"
                         aria-expanded="false"
                         aria-controls="face"
-                    >Face</a>
-                    <a type="btn"
-                        role="button"
-                        className="btn btn-secondary mr-2"
+                    >Face</button>
+                    <button type="btn"
+                        onClick={this.changeColorBath.bind(this)}
+                        // id={toggleBath}
+                        className={toggleBath}
                         data-toggle="collapse"
-                        aria-pressed="true"
                         data-target="#bath"
                         aria-expanded="false"
                         aria-controls="bath"
-                    >Bath</a>
-                </p>
+                    >Bath</button>
+                </div>
                 <div className="card-columns">
 
                     {productcards.map(productcards => (
                         <div className="collapse multi-collapse" key={productcards.id} id={productcards.dataid}>
-                            <div className="card border-dark" >
+                            <div className="card border-dark">
                                 <img className="card-img-top" src={productcards.image} alt={productcards.imageName} />
                                 <div className="card-body card-info">
 
@@ -64,14 +74,13 @@ class ProductCards extends Component {
 
                                         <h4 className="card-title text-center">{productcards.name}</h4>
                                         <p className="card-text text-left"><b>Natural Ingrdients:</b> {productcards.ingredients}</p>
+                                        <p className="text-right">Tags: #{productcards.dataid}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     ))}
-
                 </div>
-
             </div>
         );
     };

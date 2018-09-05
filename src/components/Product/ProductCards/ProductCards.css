@@ -18,12 +18,25 @@
     backface-visibility: hidden;
 }
 
-#toggleOn {
-    background: green;
+#productNavi {
+    margin-bottom: 2vh;
+    font-family: 'Special Elite', cursive;
+    font-size: 100%;
+    color: white;
 }
-#toggleOff {
-    background: purple;
+
+.toggleOn {
+    border: none;
+    background: #6E6E6E;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.toggleOff {
+    border: none;
+    background: rgba(12, 122, 2, 0.397);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* 
 .slideUp, .slideDown {
     max-height: 0;            
