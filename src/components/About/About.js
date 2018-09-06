@@ -1,17 +1,16 @@
 import React from "react";
 import "./About.css";
+import { Container, Row, Col, Title } from "../Grid";
 
 const About = () => (
   <div className="about" id="aboutScroll">
-    <div className="container">
-      <div className="row">
-        <div className="col-sm-12">
+    <Container>
+      <Row>
+        <Col size="sm-12">
           <div className="jumbotron aboutBody">
-            <div className="aboutTitle">
-              <hr />
+            <Title>
               <img id="hotmessLogo" src={require("../images/hotmesslogo.png")} alt="hotmesslogo" />
-              <hr />
-            </div>
+            </Title>
             <div className="aboutContent">
               <p>Auntie Hotmess Soaps is founded on the values of preserving nature and reducing waste.
               She strives to create body products that are biodegradeable and eco-friendly. With
@@ -24,14 +23,11 @@ const About = () => (
               <span><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bigsirbus/">
               <img id="inlineIco" src={require("../images/instagram.png")} alt="busIg" />Big Sir Bus</a></span>
               .
-              <p>
-
-              </p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
     <div className="nextComponent">
       <a href="#productScroll"><img id="scrollDown" src={require("../images/arrowdown.png")} alt="downarrowthing" /></a>
     </div>

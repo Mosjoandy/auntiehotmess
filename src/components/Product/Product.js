@@ -1,27 +1,26 @@
 import React from "react";
 import "./Product.css";
 import ProductCards from './ProductCards';
+import { Container, Row, Col, Title } from "../Grid";
 
 const Product = () => (
   <div className="product" id="productScroll">
-    <div className="container">
-      <div className="row">
-        <div className="col-sm-12">
-          <div className="productTitle">
-            <hr />
+    <Container>
+      <Row>
+        <Col size="sm-12">
+          <Title>
             Products
-            <hr />
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-sm-12">
+          </Title>
+        </Col>
+      </Row>
+      <Row>
+        <Col size="sm-12">
           <div className="productbody">
             <ProductCards />
           </div>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   </div>
 );
 

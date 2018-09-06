@@ -11,14 +11,6 @@
     margin: 0 auto;
 }
 
-.productTitle {
-    width: 100%;
-    margin: 2rem auto;
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Special Elite', cursive;
-}
-
 @media only screen and (max-width: 600px) {
 
     .productTitle {

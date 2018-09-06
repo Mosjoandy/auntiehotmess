@@ -3,14 +3,6 @@
     height: 100%;
 }
 
-.contactTitle {
-    width: 100%;
-    margin: 2rem auto;
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Special Elite', cursive;
-}
-
 #socialMedia {
     margin-top: 1.5vh;
     position: relative;

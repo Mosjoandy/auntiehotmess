@@ -1,19 +1,16 @@
 import React from "react";
 import "./Contact.css";
-// import Map from "../Map";
+import { Container, Row, Col, Title } from "../Grid";
+
 
 const Contact = () => (
   <div className="contact" id="contactScroll">
-    <div className="container">
-
-      <hr />
-      <div className="row">
-        <div className="col-sm-7">
-          <div className="contactTitle">
+    <Container>
+      <Row>
+        <Col size="sm-7">
+          <Title>
             Co-Op
-            </div>
-
-          <hr />
+          </Title>
           <div className="row justify-content-center d-flex">
             <div className="justify-content-center d-flex">
               <h4>
@@ -43,13 +40,11 @@ const Contact = () => (
           </div>
           <hr />
 
-        </div>
-        <div className="col-sm-5">
-
-          <div className="contactTitle">
+        </Col>
+        <Col size="sm-5">
+          <Title>
             Contact
-          </div>
-          <hr />
+          </Title>
           <p><b>Want to talk? Send us an email!</b></p>
 
           <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
@@ -66,10 +61,10 @@ const Contact = () => (
             </h4>
 
           </div>
-        </div>
+        </Col>
 
-      </div>
-    </div>
+      </Row>
+    </Container>
   </div>
 );
 

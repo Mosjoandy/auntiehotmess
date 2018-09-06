@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Events.css";
 import events from './events.json';
+import { Row, Col } from "../../Grid";
 
 class Events extends Component {
 
@@ -14,11 +15,11 @@ class Events extends Component {
                             <h2><b>{events.name}</b></h2>
                         </div>
                         <div className="card-body">
-                            <div className="row">
-                                <div className="col-md-7">
+                            <Row>
+                                <Col size="md-7">
                                     <img className="img-fluid rounded" id="eventImg" src={events.imagesrc} alt="eventPic" />
-                                </div>
-                                <div className="col-sm-5">
+                                </Col>
+                                <Col size="sm-5">
                                     <h4><b>Date: </b> </h4>
                                     <h4>{events.date}</h4>
                                     <br />
@@ -36,8 +37,8 @@ class Events extends Component {
                                     <div id="calendarDiv">
                                         <h4><a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href={events.calendar}><img height="25vh" src={require("../../images/gcalendar_image.png")} alt="gcalendar" /> Add to your Calendar</a></h4>
                                     </div>
-                                </div>
-                            </div>
+                                </Col>
+                            </Row>
                         </div>
                     </div>
                 )).reverse()}

@@ -8,14 +8,6 @@
     margin: 0 auto;
 }
 
-.scheduleTitle {
-    width: 100%;
-    margin: 2rem auto;
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Special Elite', cursive;
-}
-
 #productScrollTop {
     width: 7%;
     display: block;
