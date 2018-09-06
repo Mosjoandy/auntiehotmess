@@ -67,7 +67,10 @@ class ProductCards extends Component {
     };
 
     changeColorBath() {
-        this.setState({ toggleBath: !this.state.toggleBath })
+        this.setState({ 
+            toggleBath: !this.state.toggleBath 
+        });
+
         // if (this.state.toggleBath === true) {
         //     this.setState({
         //         toggleBath: false,
