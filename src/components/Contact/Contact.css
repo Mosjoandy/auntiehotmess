@@ -13,15 +13,17 @@
 
 #socialMedia {
     margin-top: 1.5vh;
+    position: relative;
+    bottom: 0;
 }
 
-#instagram, #email, #facebook {
-    width: 10vh;
+#instagram, #email, #facebook, #homepage {
+    width: 6vh;
     transition: 0.1s all ease-in;
     margin-right: 1.5vh;
 }
 
-#instagram:hover, #email:hover, #burge:hover, #facebook:hover {
+#instagram:hover, #email:hover, #facebook:hover, #homepage:hover {
     transform: scale(1.2);
 }
 
@@ -31,7 +33,10 @@
 
 #burge {
     width: 11rem;
-    transition: 0.1s all ease-in;
+}
+
+#sprig {
+    width: 15rem;
 }
 
 #ahmIG {

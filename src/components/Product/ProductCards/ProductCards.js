@@ -11,8 +11,8 @@ class ProductCards extends Component {
             toggleSoap: true,
             toggleBath: true,
             toggleFace: true
-        }
-    }
+        };
+    };
 
     // changeColorAll() {
     //     if (this.state.toggleAll === true) {
@@ -67,16 +67,17 @@ class ProductCards extends Component {
     };
 
     changeColorBath() {
-        if (this.state.toggleBath === true) {
-            this.setState({
-                toggleBath: false,
-                toggleAll: true
-            });
-        } else { 
-            this.setState({
-                toggleBath: true
-            });
-        };
+        this.setState({ toggleBath: !this.state.toggleBath })
+        // if (this.state.toggleBath === true) {
+        //     this.setState({
+        //         toggleBath: false,
+        //         toggleAll: true
+        //     });
+        // } else { 
+        //     this.setState({
+        //         toggleBath: true
+        //     });
+        // };
     };
 
     changeColorFace() {
@@ -134,7 +135,7 @@ class ProductCards extends Component {
                         aria-controls="bath"
                     >Bath</button>
                 </div>
-                
+
                 <div className="card-columns">
 
                     {productcards.map(productcards => (

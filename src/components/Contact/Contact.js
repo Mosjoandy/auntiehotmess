@@ -12,24 +12,37 @@ const Contact = () => (
           <div className="contactTitle">
             Co-Op
             </div>
-          <hr />
-          <div className="justify-content-center d-flex">
-            <h4><a target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
-              <img id="burge" className="rounded-circle justify-content-center d-flex" src={require("../images/burge.png")} alt="burge" /></a>
-              <div className="justify-content-center d-flex">
-                <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
-                  <span>Burge Road Farm</span></a>
 
-              </div>
-              <div className="justify-content-center d-flex" id="socialMedia">
-                <a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/burgeroadfarm/">
-                  <img id="instagram" src={require("../images/instagram.png")} alt="ig" /></a>
-                <a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/burgeroadfarm/">
-                  <img id="facebook" src={require("../images/facebook.png")} alt="fb" /></a>
-              </div>
-            </h4>
+          <hr />
+          <div className="row justify-content-center d-flex">
+            <div className="justify-content-center d-flex">
+              <h4>
+                <img id="burge" className="rounded-circle justify-content-center d-flex" src={require("../images/burge.png")} alt="burge" />
+
+                <div className="justify-content-center d-flex" id="socialMedia">
+                  <a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
+                    <img id="homepage" src={require("../images/homepage.png")} alt="homies" /></a>
+                  <a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/burgeroadfarm/">
+                    <img id="instagram" src={require("../images/instagram.png")} alt="ig" /></a>
+                  <a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/burgeroadfarm/">
+                    <img id="facebook" src={require("../images/facebook.png")} alt="fb" /></a>
+                </div>
+              </h4>
+            </div>
+
+            <div className="justify-content-center d-flex align-items-center">
+              <h4>
+                <img id="sprig" className="rounded-circle justify-content-center d-flex" src={require("../images/sprig.png")} alt="sprig" />
+
+                <div className="justify-content-center d-flex" id="socialMedia">
+                  <a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sprigandstock/">
+                    <img id="instagram" src={require("../images/instagram.png")} alt="ig" /></a>
+                </div>
+              </h4>
+            </div>
           </div>
           <hr />
+
         </div>
         <div className="col-sm-5">
 
