@@ -1,9 +1,3 @@
-.about {
-    width: 100%;
-    height: 100%;
-   
-}
-
 .aboutBody {
     background-color: white;
     height: 100%;
@@ -15,11 +9,6 @@
     margin-top: 2.5rem;
     font-size: 1.5rem;
 }
-/* 
-.aboutTitle {
-    text-align: center;
-    font-family: 'Special Elite', cursive;
-} */
 
 #inlineIco {
     width: 2vw; 
@@ -36,11 +25,5 @@
     #hotmessLogo {
         width: 100%;
     }
-
-    .aboutContent {
-        text-align: justify;
-        font-size: 1rem;
-    }
-
 }
 

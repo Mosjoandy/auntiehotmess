@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Events.css";
 import events from './events.json';
-import { Row, Col } from "../../Grid";
+import { Row, Col } from "../../Modules";
 
 class Events extends Component {
 

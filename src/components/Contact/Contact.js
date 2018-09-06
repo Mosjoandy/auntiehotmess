@@ -1,10 +1,10 @@
 import React from "react";
 import "./Contact.css";
-import { Container, Row, Col, Title } from "../Grid";
+import { Container, Row, Col, Title, Section } from "../Modules";
 
 
 const Contact = () => (
-  <div className="contact" id="contactScroll">
+  <Section id="contactScroll">
     <Container>
       <Row>
         <Col size="sm-7">
@@ -15,7 +15,6 @@ const Contact = () => (
             <div className="justify-content-center d-flex">
               <h4>
                 <img id="burge" className="rounded-circle justify-content-center d-flex" src={require("../images/burge.png")} alt="burge" />
-
                 <div className="justify-content-center d-flex" id="socialMedia">
                   <a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
                     <img id="homepage" src={require("../images/homepage.png")} alt="homies" /></a>
@@ -26,7 +25,6 @@ const Contact = () => (
                 </div>
               </h4>
             </div>
-
             <div className="justify-content-center d-flex align-items-center">
               <h4>
                 <img id="sprig" className="rounded-circle justify-content-center d-flex" src={require("../images/sprig.png")} alt="sprig" />
@@ -39,14 +37,12 @@ const Contact = () => (
             </div>
           </div>
           <hr />
-
         </Col>
         <Col size="sm-5">
           <Title>
             Contact
           </Title>
           <p><b>Want to talk? Send us an email!</b></p>
-
           <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
             <img id="email" src={require("../images/email.png")} alt="mail" /></a>
             <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
@@ -59,13 +55,11 @@ const Contact = () => (
               <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/auntiehotmesssoap/">
                 <span>Auntie Hotmess Soaps</span></a>
             </h4>
-
           </div>
         </Col>
-
       </Row>
     </Container>
-  </div>
+  </Section>
 );
 
 export default Contact;

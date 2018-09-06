@@ -1,13 +1,12 @@
 import React from "react";
 import "./MissionPic.css";
+import { Section, NextComponent } from "../Modules";
 
 const MissionPic = () => (
-  <div>
+  <Section>
     <img className="missionPic" src="https://res.cloudinary.com/mosjoandy/image/upload/v1534368062/missionHotness.jpg" alt="MissionPic" />
-    <div className="nextComponent">
-      <a href="#aboutScroll"><img id="scrollDown" src={require("../images/arrowdown.png")} alt="downarrowthing" /></a>
-    </div>
-  </div>
+    <NextComponent href="#aboutScroll" />
+  </Section>
 );
 
 export default MissionPic;

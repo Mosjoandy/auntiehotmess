@@ -1,16 +1,15 @@
 import React from "react";
 import "./Schedule.css";
 import Events from "./Events"
-import { Container, Row, Col, Title } from "../Grid";
+import { Container, Row, Col, Title, Section, NextComponent } from "../Modules";
 
 const Schedule = () => (
-  <div className="schedule" id="scheduleScroll">
+  <Section id="scheduleScroll">
     <Container>
       <Row>
         <Col size="sm-12">
           {/* Crazy wierd CSS interaction, won't allow :hover or become clickable in productcards.js or products.js */}
           <a href="#productScroll"><img id="productScrollTop" src={require("../images/arrowup.png")} alt="arrowupthing" /></a>
-
           <Title>
             Schedule
           </Title>
@@ -29,10 +28,8 @@ const Schedule = () => (
         </Col>
       </Row>
     </Container>
-    <div className="nextComponent">
-      <a href="#contactScroll"><img id="scrollDown" src={require("../images/arrowdown.png")} alt="downarrowthing" /></a>
-    </div>
-  </div>
+    <NextComponent href="#contactScroll" />
+  </Section>
 );
 
 export default Schedule;

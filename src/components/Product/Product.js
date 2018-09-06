@@ -1,10 +1,10 @@
 import React from "react";
 import "./Product.css";
 import ProductCards from './ProductCards';
-import { Container, Row, Col, Title } from "../Grid";
+import { Container, Row, Col, Title, Section } from "../Modules";
 
 const Product = () => (
-  <div className="product" id="productScroll">
+  <Section id="productScroll">
     <Container>
       <Row>
         <Col size="sm-12">
@@ -21,7 +21,7 @@ const Product = () => (
         </Col>
       </Row>
     </Container>
-  </div>
+  </Section>
 );
 
 export default Product;
