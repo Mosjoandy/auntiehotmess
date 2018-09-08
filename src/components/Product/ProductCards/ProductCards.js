@@ -53,7 +53,7 @@ class ProductCards extends Component {
                 toggleSoap: false,
                 toggleAll: true
             });
-        } else { 
+        } else {
             this.setState({
                 toggleSoap: true
             });
@@ -67,8 +67,8 @@ class ProductCards extends Component {
     };
 
     changeColorBath() {
-        this.setState({ 
-            toggleBath: !this.state.toggleBath 
+        this.setState({
+            toggleBath: !this.state.toggleBath
         });
 
         // if (this.state.toggleBath === true) {
@@ -89,7 +89,7 @@ class ProductCards extends Component {
                 toggleFace: false,
                 toggleAll: true
             });
-        } else { 
+        } else {
             this.setState({
                 toggleFace: true
             });
@@ -104,7 +104,9 @@ class ProductCards extends Component {
 
         return (
             <div>
+                <p className="text-center">Tags #:</p>
                 <div className="d-flex justify-content-center" id="productNavi">
+
                     {/* <button type="btn"
                         onClick={this.changeColorAll.bind(this)}
                         className={toggleAll}

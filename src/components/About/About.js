@@ -9,19 +9,19 @@ const About = () => (
         <Col size="sm-12">
           <div className="jumbotron aboutBody">
             <Title>
-              <img id="hotmessLogo" src={require("../images/hotmesslogo.png")} alt="hotmesslogo" />
+              <img id="hotmessLogo" src={require("../images/hotmesslogo.png")} alt="auntie hotmess logo" />
             </Title>
             <div className="aboutContent">
               <p>Auntie Hotmess Soaps is founded on the values of preserving nature and reducing waste.
-              She strives to create body products that are biodegradeable and eco-friendly. With
-              her friends and family in mind, her soaps and products are all-natural and plant-based.
-              </p>She sources her ingredients from companies that use environmentally
-              friendly practices. All her products and cold processed soaps are crafted at
-              <span> <a target="_blank" rel="noopener noreferrer" href="http://www.burgeroadfarm.com/">
+              She strives to create body products that are biodegradeable and eco-friendly. With 
+              friends and family in mind, her soaps and products are all-natural and plant-based.
+              </p>She sources ingredients from companies that use environmentally
+              friendly practices. Every product and cold processed soap is hand-crafted at
+              <span> <a target="_blank" rel="noopener noreferrer" href="#contactScroll">
                 The Burge Road Farm</a></span>, a local organic cherry farm known for its popular
               U-Pick Cherry Event. She can be found wandering other parts of the nation in her converted shortbus
               <span><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bigsirbus/">
-                <img id="inlineIco" src={require("../images/instagram.png")} alt="busIg" />Big Sir Bus</a></span>
+                <img id="inlineIco" src={require("../images/instagram.png")} alt="Big Sir Bus Instagram" />Big Sir Bus</a></span>
               .
             </div>
           </div>
