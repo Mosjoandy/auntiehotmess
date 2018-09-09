@@ -13,7 +13,6 @@
     transform: scale(1.2)
 }
 
-#calendarDiv {
-    position: absolute;
-    bottom: 1rem;   
+.bgCard {
+    background: #47ffcc;
 }

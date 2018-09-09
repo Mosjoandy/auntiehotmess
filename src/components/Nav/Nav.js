@@ -19,7 +19,7 @@ class Nav extends Component {
               <a type="btn" role="button" className="btn btn-secondary" id="navButton" href="#productScroll">Products</a>
             </li>
             <li className="nav-item">
-              <a type="btn" role="button" className="btn btn-secondary" id="navButton" href="#scheduleScroll">Schedule</a>
+              <a type="btn" role="button" className="btn btn-secondary" id="navButton" href="#scheduleScroll">Events</a>
             </li>
             <li className="nav-item">
               <a type="btn" role="button" className="btn btn-secondary" id="navButton" href="#contactScroll">Contact</a>

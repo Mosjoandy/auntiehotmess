@@ -11,7 +11,7 @@ const Schedule = () => (
           {/* Crazy wierd CSS interaction, won't allow :hover or become clickable in productcards.js or products.js */}
           <a href="#productScroll"><img id="productScrollTop" src={require("../images/arrowup.png")} alt="arrowupthing" /></a>
           <Title>
-            Schedule
+            Schedule of Events
           </Title>
         </Col>
       </Row>
