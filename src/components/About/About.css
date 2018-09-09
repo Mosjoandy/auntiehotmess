@@ -1,29 +1,39 @@
 .aboutBody {
     background-color: white;
     height: 100%;
-    margin-top: 0 auto;
+    margin-top: 5vh auto;
     /* background-image: url(../images/canvas.jpg); */
 }
 
 .aboutContent {
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
+    /* margin-top: 2.5rem; */
+    font-size: 1.25rem;
 }
 
 #inlineIco {
-    width: 2vw; 
-    margin: 0 1vh;
+    width: 1.5rem; 
+    margin: 0 0.5vw;
 }
 
-#hotmessLogo {
-    width: 30rem;
+#aboutHotmessLogo {
+    width: 25rem;
     margin-bottom: 1rem;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
 
-    #hotmessLogo {
+    #aboutHotmessLogo  {
+        display: none;
         width: 100%;
-    }
+    };
+
+    #inlineIco {
+        width: 0.5rem;
+    };
+
+    .aboutContent {
+        font-size: .75rem;
+    };
 }
 

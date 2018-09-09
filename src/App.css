@@ -35,7 +35,7 @@
   width: 100%;
   margin: 2rem auto;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Special Elite', cursive;
 }
 
@@ -44,9 +44,24 @@
   height: 100%;
 }
 
+#hotmessLogo {
+  position: fixed;
+  left: 1vw;
+  top: 1vh;
+  z-index: 99999;
+  width: 7em;
+  margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
 
   .title {
       font-size: 2.5rem;
   }
+
+  #hotmessLogo { 
+    right: 1vw;
+    left: unset;
+  }
+  
 }

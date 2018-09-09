@@ -6,7 +6,7 @@ import About from './components/About';
 import Product from './components/Product';
 import Schedule from './components/Schedule';
 import NicePic from './components/NicePic';
-import MissionPic from './components/MissionPic';
+// import MissionPic from './components/MissionPic';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -17,7 +17,8 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <MissionPic />
+        <img id="hotmessLogo" className="sticky-top" src={require("./components/images/hotmesslogo.png")} alt="auntie hotmess logo" />
+        {/* <MissionPic /> */}
         <About />
         <NicePic />
         <Product />
