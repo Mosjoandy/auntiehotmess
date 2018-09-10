@@ -88,8 +88,7 @@ headroom--pinned {
   }
 
   #hotmessLogo { 
-    right: 1vw;
-    left: unset;
+    display: none;
   }
   
 }
