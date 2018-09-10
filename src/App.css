@@ -51,7 +51,35 @@
   z-index: 99999;
   width: 7em;
   margin-bottom: 1rem;
+  transition: all 2s ease;
 }
+#hotmessLogo:hover {
+  transform: rotateZ(360deg)
+}
+
+/* headroom */
+headroom {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-Index: 1;
+}
+headroom--unfixed {
+  position: relative;
+  transform: translateY(0);
+}
+headroom--scrolled {
+  transition: transform 1000ms ease-in-out;
+}
+headroom--unpinned {
+  position: fixed;
+  transform: translateY(-100%);
+}
+headroom--pinned {
+  position: fixed;
+  transform: translateY(0%);
+}
+
 
 @media only screen and (max-width: 600px) {
 

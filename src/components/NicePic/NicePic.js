@@ -3,7 +3,7 @@ import "./NicePic.css";
 import { Section } from "../Modules";
 
 const NicePic = () => (
-  <Section>
+  <Section id="scrollTopTarget">
     <img className="nicePic" src={require("../images/Background1.jpg")} alt="nicePic" />
   </Section>
 );

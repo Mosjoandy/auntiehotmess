@@ -4,7 +4,7 @@ import { Container, Row, Col, Section } from "../Modules";
 import MissionPic from "../MissionPic";
 
 const About = () => (
-  <Section id="aboutScroll">
+  <Section>
     <Container>
       <Row>
         <Col size="sm-12">

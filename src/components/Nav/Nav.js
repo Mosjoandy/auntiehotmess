@@ -6,7 +6,8 @@ class Nav extends Component {
   render() {
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-light sticky-top ">
+
+      <nav className="navbar navbar-expand-lg navbar-light">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -36,6 +37,7 @@ class Nav extends Component {
           </ul>
         </div>
       </nav>
+
     );
   };
 };
