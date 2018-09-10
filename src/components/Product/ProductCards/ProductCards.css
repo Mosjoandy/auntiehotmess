@@ -26,7 +26,7 @@
 }
 
 #cardButtons:hover {
-    transform: scale(0.9)
+    transform: scale(0.98)
 }
 
 .toggleOn {
@@ -86,7 +86,7 @@
         width: 5rem;
         height: 5rem;
     }
-    
+
     .generatedCards {
         width: 100%;
     }
