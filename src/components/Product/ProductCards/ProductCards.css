@@ -20,6 +20,10 @@
     color: white;
 }
 
+#cardButtons {
+    margin: 0 2vw;
+}
+
 .toggleOn {
     border: none;
     background: #6E6E6E;
@@ -33,10 +37,48 @@
 }
 
 #outerPic {
-    width: 10rem;
-    margin-right: 2vw;
+    width: 15rem;
 }
 
 #innerPic {
     width: 5rem;
 }
+
+#innerPic2 {
+    width: 6.25rem;
+}
+/* 
+#mobileProductButton {
+    display: none;
+} */
+
+@media only screen and (max-width: 600px) {
+
+    /* #mobileProductButton {
+        display: contents;
+
+    } */
+    .card-img-overlay {
+        padding: 0 0;
+    }
+    #innerPic {
+        width: 3rem;
+    }
+    
+    #innerPic2 {
+        width: 3.5rem;
+    }
+    #innerPic, #innerPic2 {
+        margin: 0 2vw;
+    }
+
+    #outerPic {
+        width: 5rem;
+        height: 5rem;
+    }
+/* 
+    #cardButtons {
+        display: none;
+    } */
+}
+
