@@ -24,11 +24,11 @@ class Nav extends Component {
                 <img src={require("../images/buttons/Events.PNG")} id="navButton" alt="eventsbtn" />
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a type="btn" role="button" className="ml-4 mr-4" id="navButton" href="#bioScroll">
                 <img src={require("../images/buttons/Bio.PNG")} id="navButton" alt="biobtn" />
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a type="btn" role="button" className="ml-4 mr-4" id="navButton" href="#contactScroll">
                 <img src={require("../images/buttons/Contact.PNG")} id="navButton" alt="contactbtn" />
