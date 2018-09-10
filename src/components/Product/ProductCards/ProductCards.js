@@ -98,9 +98,9 @@ class ProductCards extends Component {
 
     render() {
         // let toggleAll = this.state.toggleAll ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
-        let toggleSoap = this.state.toggleSoap ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
-        let toggleFace = this.state.toggleFace ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
-        let toggleBath = this.state.toggleBath ? "toggleOn btn btn-secondary mr-2" : "toggleOff btn mr-2";
+        let toggleSoap = this.state.toggleSoap ? "toggleOn" : "toggleOff";
+        let toggleFace = this.state.toggleFace ? "toggleOn" : "toggleOff";
+        let toggleBath = this.state.toggleBath ? "toggleOn" : "toggleOff";
 
         return (
             <div>
@@ -115,31 +115,84 @@ class ProductCards extends Component {
                         aria-expanded="false"
                         aria-controls="soap"
                     >All Products</button> */}
-                    <button type="btn"
+
+
+                    <div class="card">
+                        <a type="btn"
+                            onClick={this.changeColorSoap.bind(this)}
+                            className={toggleSoap}
+                            data-toggle="collapse"
+                            data-target="#soap"
+                            aria-expanded="false"
+                            aria-controls="soap">
+                            <img id="outerPic" className="rounded" src="https://res.cloudinary.com/mosjoandy/image/upload/ar_1:1,c_fill,g_auto,e_art:hokusai/v1533598784/Auntie%20Hotmess%20Soaps/Lavender.jpg" alt="soap button" />
+                            <div class="card-img-overlay">
+                                <p><img id="innerPic" className="rounded" src={require("../../images/buttons/Soaps.PNG")} alt="soap button" /></p>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    {/* <a type="btn"
                         onClick={this.changeColorSoap.bind(this)}
                         className={toggleSoap}
                         data-toggle="collapse"
                         data-target="#soap"
                         aria-expanded="false"
                         aria-controls="soap"
-                    >Soap</button>
-                    <button type="btn"
+                    ><img id="soapsOuterPic" className="rounded" src="https://res.cloudinary.com/mosjoandy/image/upload/ar_1:1,c_fill,g_auto,e_art:hokusai/v1533598784/Auntie%20Hotmess%20Soaps/Lavender.jpg" alt="soap button" />
+                        <img className="rounded" src={require("../../images/buttons/Soaps.PNG")} alt="soap button" /></a> */}
+
+
+                    <div class="card">
+                        <a type="btn"
+                            onClick={this.changeColorFace.bind(this)}
+                            className={toggleFace}
+                            data-toggle="collapse"
+                            data-target="#face"
+                            aria-expanded="false"
+                            aria-controls="face">
+                            <img id="outerPic" className="rounded" src="https://res.cloudinary.com/mosjoandy/image/upload/ar_1:1,c_fill,g_auto,e_art:hokusai/v1533598788/Auntie%20Hotmess%20Soaps/Bentonite_Clay_Mask_Small.jpg" alt="face button" />
+                            <div class="card-img-overlay">
+                                <p><img id="innerPic" className="rounded" src={require("../../images/buttons/Face.PNG")} alt="face button" /></p>
+                            </div>
+                        </a>
+                    </div>
+
+                    {/* <a type="btn"
                         onClick={this.changeColorFace.bind(this)}
                         className={toggleFace}
                         data-toggle="collapse"
                         data-target="#face"
                         aria-expanded="false"
                         aria-controls="face"
-                    >Face</button>
-                    <button type="btn"
+                    >Face</a> */}
+
+                    <div class="card">
+                        <a type="btn"
+                            onClick={this.changeColorBath.bind(this)}
+                            className={toggleBath}
+                            data-toggle="collapse"
+                            data-target="#bath"
+                            aria-expanded="false"
+                            aria-controls="bath">
+                            <img id="outerPic" className="rounded" src="https://res.cloudinary.com/mosjoandy/image/upload/ar_1:1,c_fill,g_auto,e_art:hokusai/v1533598789/Auntie%20Hotmess%20Soaps/Bath_Salts_Small.jpg" alt="bath button" />
+                            <div class="card-img-overlay">
+                                <p><img id="innerPic" className="rounded" src={require("../../images/buttons/Bath.PNG")} alt="bath button" /></p>
+                            </div>
+                        </a>
+                    </div>
+
+                   {/* <a type="btn"
                         onClick={this.changeColorBath.bind(this)}
                         className={toggleBath}
                         data-toggle="collapse"
                         data-target="#bath"
                         aria-expanded="false"
                         aria-controls="bath"
-                    >Bath</button>
-                </div>
+                    >Bath</a>*/}
+
+                </div> 
 
                 <div className="card-columns">
 
@@ -161,6 +214,7 @@ class ProductCards extends Component {
                     ))}
                 </div>
             </div>
+
         );
     };
 };

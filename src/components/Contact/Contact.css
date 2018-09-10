@@ -17,6 +17,7 @@
 #contactSection {
     text-align: center;
 }
+
 #burge {
     width: 11rem;
 }
@@ -28,4 +29,8 @@
 #ahmIG {
     position: relative;
     bottom: 0;
+}
+
+#co-opMedia {
+    margin-right: 10rem;
 }

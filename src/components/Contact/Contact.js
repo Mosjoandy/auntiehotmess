@@ -11,8 +11,8 @@ const Contact = () => (
           <Title>
             Co-Op
           </Title>
-          <div className="row justify-content-center d-flex">
-            <div className="justify-content-center d-flex">
+          <div className="row justify-content-center d-flex" >
+            <div className="justify-content-center d-flex" id="co-opMedia">
               <h4>
                 <img id="burge" className="rounded-circle justify-content-center d-flex" src={require("../images/burge.png")} alt="burge" />
                 <div className="justify-content-center d-flex" id="socialMedia">
@@ -25,6 +25,7 @@ const Contact = () => (
                 </div>
               </h4>
             </div>
+
             <div className="justify-content-center d-flex align-items-center">
               <h4>
                 <img id="sprig" className="rounded-circle justify-content-center d-flex" src={require("../images/sprig.png")} alt="sprig" />
