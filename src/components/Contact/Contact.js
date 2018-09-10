@@ -7,7 +7,7 @@ const Contact = () => (
   <Section id="contactScroll">
     <Container>
       <Row>
-        <Col size="sm-7">
+        <Col size="sm-12">
           <Title>
             Co-Op
           </Title>
@@ -36,25 +36,28 @@ const Contact = () => (
               </h4>
             </div>
           </div>
-          <hr />
         </Col>
-        <Col size="sm-5">
+      </Row>
+      <Row>
+        <Col size="sm-12">
           <Title>
             Contact
           </Title>
-          <p><b>Want to talk? Send us an email!</b></p>
-          <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
-            <img id="email" src={require("../images/email.png")} alt="mail" /></a>
-            <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
-              <span>info@auntiehotmess.com</span></a>
-          </h4>
-          <br />
-          <div id="ahmIG">
-            <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/auntiehotmesssoap/">
-              <img id="instagram" src={require("../images/instagram.png")} alt="ig" /></a>
-              <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/auntiehotmesssoap/">
-                <span>Auntie Hotmess Soaps</span></a>
+          <div id="contactSection">
+            <p><b>Want to talk? Send us an email!</b></p>
+            <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
+              <img id="email" src={require("../images/email.png")} alt="mail" /></a>
+              <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
+                <span>info@auntiehotmess.com</span></a>
             </h4>
+            <br />
+            <div id="ahmIG">
+              <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/auntiehotmesssoap/">
+                <img id="instagram" src={require("../images/instagram.png")} alt="ig" /></a>
+                <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/auntiehotmesssoap/">
+                  <span>Auntie Hotmess Soaps</span></a>
+              </h4>
+            </div>
           </div>
         </Col>
       </Row>

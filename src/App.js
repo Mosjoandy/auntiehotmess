@@ -6,7 +6,7 @@ import About from './components/About';
 import Product from './components/Product';
 import Schedule from './components/Schedule';
 import NicePic from './components/NicePic';
-// import MissionPic from './components/MissionPic';
+import Bio from './components/Bio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -17,12 +17,12 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <img id="hotmessLogo" className="sticky-top" src={require("./components/images/hotmesslogo.png")} alt="auntie hotmess logo" />
-        {/* <MissionPic /> */}
-        <About />
         <NicePic />
+        <img id="hotmessLogo" className="sticky-top" src={require("./components/images/hotmesslogo.png")} alt="auntie hotmess logo" />
+        <About />
         <Product />
         <Schedule />
+        <Bio />
         <Contact />
         <Footer />
         <a href="#scrollTopTarget"><img id="scrollTop" src={require("./components/images/arrowup.png")} alt="arrowupthing" /></a>

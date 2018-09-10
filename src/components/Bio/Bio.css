@@ -1,11 +1,10 @@
-.aboutBody {
+.bioBody {
     background-color: white;
     height: 100%;
-    margin-top: 5vh auto;
     /* background-image: url(../images/canvas.jpg); */
 }
 
-.aboutContent {
+.bioContent {
     /* margin-top: 2.5rem; */
     font-size: 1.25rem;
 }
@@ -15,24 +14,13 @@
     margin: 0 0.5vw;
 }
 
-#aboutHotmessLogo {
-    width: 25rem;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-}
-
 @media only screen and (max-width: 600px) {
-
-    #aboutHotmessLogo  {
-        display: none;
-        width: 100%;
-    };
 
     #inlineIco {
         width: 0.5rem;
     };
 
-    .aboutContent {
+    .bioContent {
         font-size: .75rem;
     };
 }

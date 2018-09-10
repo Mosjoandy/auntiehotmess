@@ -14,10 +14,9 @@
     transform: scale(1.2);
 }
 
-#contactH4 {
-    font-size: 3vh;
+#contactSection {
+    text-align: center;
 }
-
 #burge {
     width: 11rem;
 }

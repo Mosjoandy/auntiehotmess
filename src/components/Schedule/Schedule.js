@@ -1,7 +1,7 @@
 import React from "react";
 import "./Schedule.css";
 import Events from "./Events"
-import { Container, Row, Col, Title, Section, NextComponent } from "../Modules";
+import { Container, Row, Col, Title, Section } from "../Modules";
 
 const Schedule = () => (
   <Section id="scheduleScroll">
@@ -28,7 +28,6 @@ const Schedule = () => (
         </Col>
       </Row>
     </Container>
-    <NextComponent href="#contactScroll" />
   </Section>
 );
 
