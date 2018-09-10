@@ -22,6 +22,7 @@
 
 #cardButtons {
     margin: 0 2vw;
+    transition: all 2 ease;
 }
 
 .toggleOn {
@@ -37,7 +38,11 @@
 }
 
 #outerPic {
-    width: 15rem;
+    width: 20rem;
+ 
+}
+#cardButtons:hover {
+    transform: scale(1.1)
 }
 
 #innerPic {
