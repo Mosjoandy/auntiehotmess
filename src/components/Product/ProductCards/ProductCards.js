@@ -87,7 +87,7 @@ class ProductCards extends Component {
                             data-target="#face"
                             aria-expanded="false"
                             aria-controls="face">
-                            <img id="outerPic" className="rounded" src="https://res.cloudinary.com/mosjoandy/image/upload/ar_1:1,c_fill,g_auto,e_art:hokusai/v1533598788/Auntie%20Hotmess%20Soaps/Bentonite_Clay_Mask_Small.jpg" alt="face button" />
+                            <img id="outerPic" className="rounded" src="https://res.cloudinary.com/mosjoandy/image/upload/ar_1:1,c_fill,g_auto,e_art:hokusai/v1536563895/Auntie%20Hotmess%20Soaps/Bentonite_Clay_Mask_Small.jpg" alt="face button" />
                             <div className="card-img-overlay">
                                 <p><img id="innerPic" className="rounded" src={require("../../images/buttons/Face.PNG")} alt="face button" /></p>
                             </div>

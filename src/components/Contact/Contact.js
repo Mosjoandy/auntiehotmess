@@ -46,9 +46,9 @@ const Contact = () => (
           </Title>
           <div id="contactSection">
             <p><b>Want to talk? Send us an email!</b></p>
-            <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
+            <h4><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href="mailto:info@auntiehotmess.com">
               <img id="email" src={require("../images/email.png")} alt="mail" /></a>
-              <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=info@auntiehotmess.com">
+              <a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href="mailto:info@auntiehotmess.com">
                 <span>info@auntiehotmess.com</span></a>
             </h4>
             <br />
