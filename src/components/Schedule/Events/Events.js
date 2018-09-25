@@ -39,7 +39,6 @@ class Events extends Component {
                                         <h5><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href={events.calendar}>
                                             <img id="directionIcon" src={require("../../images/gcalendar_image.png")} alt="gcalendar" />
                                         </a></h5>
-
                                         {/* <div id="calendarDiv">
                                         <h4><a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href={events.calendar}><img height="25vh" src={require("../../images/gcalendar_image.png")} alt="gcalendar" /> Add to your Calendar</a></h4>
                                     </div> */}

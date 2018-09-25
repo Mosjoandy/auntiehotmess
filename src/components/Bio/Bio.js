@@ -13,19 +13,16 @@ const Bio = () => (
                 <Title>
                   Bio
               </Title>
-                <div className="bioContent">
-                  <p>Auntie Hotmess Soaps is founded on the values of preserving nature and reducing waste.
-                    She strives to create body products that are biodegradeable and eco-friendly. With
-                    friends and family in mind, her soaps and products are all-natural and plant-based.
-                  </p>She sources ingredients from companies that use environmentally
-                  friendly practices. Every product and cold processed soap is hand-crafted at
-                  <span> <a target="_blank" rel="noopener noreferrer" href="#contactScroll">
-                    The Burge Road Farm</a></span>, a local organic cherry farm known for its popular
-                    U-Pick Cherry Event. She can be found wandering other parts of the nation in her converted shortbus
-                  <span><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bigsirbus/">
-                    <img id="inlineIco" src={require("../images/instagram.png")} alt="Big Sir Bus Instagram" />Big Sir Bus</a></span>
-                  .
-            </div>
+                <div>
+                  Auntie Hotmess was created in the summer of 2014. After
+                  realizing that most products used for her body care were
+                  incapable of living up to the labels they came with.
+                  Expensive and wasteful too, she thought, "why? I am still
+                  ashy and now itchy". At that moment she referred to the
+                  saying, "if you don't like it; you can do it yourself."
+                  It took her 2 years to perfect her recipes to what it is
+                  today.
+                </div>
               </Col>
             </Row>
           </div>
