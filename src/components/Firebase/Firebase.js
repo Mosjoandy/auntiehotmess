@@ -11,4 +11,4 @@ var config = {
 };
 firebase.initializeApp(config);
 
-export default fireabse
+export default firebase
