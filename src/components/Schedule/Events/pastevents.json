@@ -10,5 +10,18 @@
         "wazeDirections": "https://www.waze.com/ul?ll=37.95883334%2C-121.29141212&navigate=yes&zoom=17",
         "appleDirections": "http://maps.apple.com/?daddr=37.9587044,-121.2935826",
         "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=Stock+Market&dates=20180811T170000Z/20180811T230000Z&location=Stockton+California,+2+E+Oak+St+,+Stockton,+CA+95202&sf=true&output=xml"
+    },
+    {
+        "id": 1,
+        "name": "Stock Market",
+        "imagesrc": "https://static1.squarespace.com/static/55567d30e4b0bd68287f6661/56a13d95a2bab874f0b21f28/5a7e32eaf9619ab21fa99468/1518220028472/Stockmarket-2018_insta-1%281%29.jpg?format=1500w",
+        "date": "October 13, 2018",
+        "time": "10:00am - 4:00pm",
+        "websitehref": "http://www.stockmarketca.com/",
+        "googleDirections": "https://goo.gl/maps/vPMoZjwQzr22",
+        "wazeDirections": "https://www.waze.com/ul?ll=37.95883334%2C-121.29141212&navigate=yes&zoom=17",
+        "appleDirections": "http://maps.apple.com/?daddr=37.9587044,-121.2935826",
+        "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=Stock+Market&dates=20181013T170000Z/20181013T230000Z&location=Stockton+California,+2+E+Oak+St+,+Stockton,+CA+95202&sf=true&output=xml"
     }
+
 ]

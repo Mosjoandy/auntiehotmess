@@ -1,6 +1,6 @@
 import React from "react";
 import "./Schedule.css";
-import Events from "./Events"
+// import Events from "./Events"
 import { Container, Row, Col, Title, Section } from "../Modules";
 import Fade from "react-reveal/Fade";
 
@@ -21,8 +21,9 @@ const Schedule = () => (
       <Row>
         <Col size="sm-12">
           <div className="scheduleBody">
-            <Fade bottom>
-              <Events />
+            <Fade delay={1200} bottom>
+            <h1 className="text-center">Currently No Upcoming Events</h1>
+              {/* <Events /> */}
               {/* Calendar Format for events.json
               event text=Name+goes+here
               date dates=YYYYMMDD
