@@ -7,7 +7,6 @@
         "time": "8:00am - 4:00pm",
         "websitehref": "http://www.burgeroadfarm.com/",
         "googleDirections": "https://goo.gl/maps/5KB9NniL5zQpE4Us5",
-        "wazeDirections": "https://www.waze.com/ul?ll=38.002139&2C-121.188680&navigate=yes&zoom=16",
         "appleDirections": "http://maps.apple.com/?daddr=38.002139, -121.188680",
         "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=Burge+Road+Farm&dates=20190608T150000Z/20190608T230000Z&location=Stockton+California,+3000+Burge+Rd+,+Stockton,+CA+95215&sf=true&output=xml"
     }

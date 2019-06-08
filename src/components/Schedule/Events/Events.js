@@ -32,7 +32,7 @@ class Events extends Component {
                                         <br />
                                         <h4><b>Where: </b> </h4>
                                         <span><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href={events.googleDirections}><img id="directionIcon" src={require("../../images/gmap_image.png")} alt="gmap" /></a></span>
-                                        <span><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href={events.wazeDirections}><img id="directionIcon" src={require("../../images/waze_image.png")} alt="wmap" /></a></span>
+                                        {/* <span><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href={events.wazeDirections}><img id="directionIcon" src={require("../../images/waze_image.png")} alt="wmap" /></a></span> */}
                                         <span><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href={events.appleDirections}><img id="directionIcon" src={require("../../images/apple_image.png")} alt="amap" /></a></span>
                                         <br /><br />
                                         <h4><b>Add To Your Calendar: </b> </h4>
