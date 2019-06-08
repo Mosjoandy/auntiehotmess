@@ -28,7 +28,7 @@ class Events extends Component {
                                         <h5>{events.time}</h5>
                                         <br />
                                         <h4><b>Website: </b> </h4>
-                                        <h5><a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href={events.websitehref}>Stock Market</a></h5>
+                                        <h5><a className="badge badge-pill badge-secondary" target="_blank" rel="noopener noreferrer" href={events.websitehref}>Burge Road Farm</a></h5>
                                         <br />
                                         <h4><b>Where: </b> </h4>
                                         <span><a className="rounded-circle" target="_blank" rel="noopener noreferrer" href={events.googleDirections}><img id="directionIcon" src={require("../../images/gmap_image.png")} alt="gmap" /></a></span>
