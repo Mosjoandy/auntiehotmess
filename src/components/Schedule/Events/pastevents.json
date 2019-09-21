@@ -22,6 +22,16 @@
         "wazeDirections": "https://www.waze.com/ul?ll=37.95883334%2C-121.29141212&navigate=yes&zoom=17",
         "appleDirections": "http://maps.apple.com/?daddr=37.9587044,-121.2935826",
         "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=Stock+Market&dates=20181013T170000Z/20181013T230000Z&location=Stockton+California,+2+E+Oak+St+,+Stockton,+CA+95202&sf=true&output=xml"
+    },
+    {
+        "id": 2,
+        "name": "Burge Road Farm",
+        "imagesrc": "https://res.cloudinary.com/mosjoandy/image/upload/v1559974459/BRF/BRF-logo-preview-01_transparent.png",
+        "date": "June 8, 2019",
+        "time": "8:00am - 4:00pm",
+        "websitehref": "http://www.burgeroadfarm.com/",
+        "googleDirections": "https://goo.gl/maps/5KB9NniL5zQpE4Us5",
+        "appleDirections": "http://maps.apple.com/?daddr=38.002139, -121.188680",
+        "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=Burge+Road+Farm&dates=20190608T150000Z/20190608T230000Z&location=Stockton+California,+3000+Burge+Rd+,+Stockton,+CA+95215&sf=true&output=xml"
     }
-
 ]
