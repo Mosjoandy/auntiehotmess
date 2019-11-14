@@ -22,7 +22,7 @@ const Schedule = () => (
         <Col size="sm-12">
           <div className="scheduleBody">
             <Fade delay={1200} bottom>
-            {/* <h1 className="text-center">Currently No Upcoming Events</h1> */}
+            <h1 className="text-center">Currently No Upcoming Events</h1>
               <Events />
               {/* Calendar Format for events.json
               event text=Name+goes+here

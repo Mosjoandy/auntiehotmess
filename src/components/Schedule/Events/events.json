@@ -1,14 +1,3 @@
 [
-        {
-            "id": 1,
-            "name": "Stockmarket",
-            "imagesrc": "https://images.squarespace-cdn.com/content/v1/55567d30e4b0bd68287f6661/1549035881346-A828OBMEG3JUB6FNAD5Z/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/Stockmarket-2019_insta1.jpg?format=750w",
-            "date": "October 19, 2019",
-            "time": "10:00am - 4:00pm",
-            "websitehref": "http://www.stockmarketca.com/",
-            "googleDirections": "https://goo.gl/maps/Ejk7nMMXf8LnRzZU7",
-            "wazeDirections": "https://www.waze.com/ul?ll=37.95269200%2C-121.29762100&navigate=yes",
-            "appleDirections": "http://maps.apple.com/?daddr=37.952975, -121.298172",
-            "calendar": "https://www.google.com/calendar/render?action=TEMPLATE&text=Stockmarket&dates=20191019T170000Z/20191019T230000Z&location=Stockton+California,+455+W+Weber+Ave+,+Stockton,+CA+95203&sf=true&output=xml"
-        }
+        
 ]
