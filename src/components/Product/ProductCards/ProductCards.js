@@ -156,7 +156,7 @@ class ProductCards extends Component {
                                     <div id={productcards.id}>
 
                                         <h4 className="card-title text-center">{productcards.name}</h4>
-                                        <p className="card-text text-left"><b>Natural Ingrdients:</b> {productcards.ingredients}</p>
+                                        <p className="card-text text-left"><b>Natural Ingredients:</b> {productcards.ingredients}</p>
                                         <p className="text-right">Tags: #{productcards.dataid}</p>
                                     </div>
                                 </div>
