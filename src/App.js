@@ -10,7 +10,7 @@ import NicePic from './components/NicePic';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import Headroom from 'react-headroom';
+// import Headroom from 'react-headroom';
 
 class App extends Component {
 
@@ -18,9 +18,9 @@ class App extends Component {
 
     return (
       <div>
-        <Headroom>
+        {/* <Headroom> */}
           <Nav />
-        </Headroom>
+        {/* </Headroom> */}
         <NicePic />
         <img id="hotmessLogo" className="sticky-top" src={require("./components/images/hotmesslogo.png")} alt="auntie hotmess logo" />
         <About />
